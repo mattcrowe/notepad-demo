@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ mix('/css/admin.css') }}">
+<link rel="stylesheet" href="{{ mix('/css/web.css') }}">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="/plugins/admin-lte/bower_components/font-awesome/css/font-awesome.min.css">

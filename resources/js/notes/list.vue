@@ -16,9 +16,9 @@
 </template>
 
 <script>
-    import Table from 'js/admin/notes/table';
-    import create from 'js/admin/notes/create.vue';
-    import note from 'js/admin/notes/edit.vue';
+    import Table from 'js/notes/table';
+    import create from 'js/notes/create.vue';
+    import note from 'js/notes/edit.vue';
 
     export default {
         data() {

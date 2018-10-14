@@ -1,5 +1,5 @@
 <template>
-    <div contenteditable="true" @blur="update" @keyup="change" v-html="innerText">{{ form[column] }}</div>
+    <div contenteditable="true" @blur="update" @keyup="change" v-html="innerText" style="white-space: pre-wrap;">{{ form[column] }}</div>
 </template>
 
 <script>

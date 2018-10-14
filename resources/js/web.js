@@ -14,7 +14,7 @@ window.VueRouter = VueRouter;
 Vue.use(VueRouter);
 Vue.config.devtools = true;
 
-import notes from './admin/notes/routes';
+import notes from './notes/routes';
 
 const router = new VueRouter({
     mode: 'history',

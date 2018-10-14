@@ -16,9 +16,9 @@
 </template>
 
 <script>
-    import Form from 'js/admin/notes/form';
-    import colors from 'js/admin/notes/colors.vue';
-    import editable from 'js/admin/notes/editable.vue';
+    import Form from 'js/notes/form';
+    import colors from 'js/notes/colors.vue';
+    import editable from 'js/notes/editable.vue';
 
     export default {
         computed: {

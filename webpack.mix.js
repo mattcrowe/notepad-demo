@@ -30,6 +30,6 @@ mix.webpackConfig({
 
 mix.copy("node_modules/admin-lte", 'public/plugins/admin-lte', false);
 
-mix.js('resources/js/admin.js', 'public/js').version();
+mix.js('resources/js/web.js', 'public/js').version();
 
-mix.sass('resources/sass/admin.scss', 'public/css').version();
+mix.sass('resources/sass/web.scss', 'public/css').version();
