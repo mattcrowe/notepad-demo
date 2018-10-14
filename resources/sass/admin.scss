@@ -1,0 +1,36 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~admin-lte/dist/css/AdminLTE.min.css";
+
+section.content {
+    min-height: 100px;
+}
+
+body {
+    background-color: #ecf0f5;
+}
+
+.notes {
+    .small-box {
+        &:hover {
+            color: #000;
+        }
+        input[type=text] {
+            border: 0;
+            background-color: inherit;
+        }
+        textarea {
+            border: 0;
+            background-color: inherit;
+            width: 100%;
+        }
+        .small-box-footer {
+            i.fa-palette {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            i.fa-times {
+                margin-right: 5px;
+            }
+        }
+    }
+}
